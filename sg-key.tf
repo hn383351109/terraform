@@ -30,7 +30,7 @@ resource "aws_security_group" "hn-test" {
   }
 }
 
-#创建秘钥对
+#创建秘钥对,在不支持创建新的key,需在AWS上手动创建
 #resource "aws_key_pair" "hn-test" {
 #  key_name   = "${var.ssh_key.key_name}"
 #  public_key = "${var.ssh_key.public_key}"
