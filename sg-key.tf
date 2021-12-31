@@ -24,11 +24,11 @@ resource "aws_security_group" "hn-test" {
 }
 
 #创建秘钥对
-resource "aws_key_pair" "hn-test" {
-  key_name   = "${var.ssh_key.key_name}"
-  public_key = "${var.ssh_key.public_key}"
-
-  tags = {
-    Name = "hn-test"
-  }
-}
+#resource "aws_key_pair" "hn-test" {
+#  key_name   = "${var.ssh_key.key_name}"
+#  public_key = "${var.ssh_key.public_key}"
+#
+#  tags = {
+#    Name = "hn-test"
+#  }
+#}

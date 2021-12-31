@@ -1,4 +1,4 @@
-aws_region = "us-west-2"
+aws_region = "us-east-1"
 vpc_name = "hn-test"
 cidr_numeral = "10"
-availability_zones = "us-west-2a,us-west-2b"
+availability_zones = "us-east-1a,us-east-1b"
